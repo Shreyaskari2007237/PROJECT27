@@ -8,7 +8,7 @@ class  Hammer
             'restitution': 0.5
 
         }
-        this.body=Bodies.rectangle(x,y,50,50,option);
+        this.body=Bodies.rectangle(x,y,50,50,options);
         World.add(world,this.body);
         
         this.width=50;
